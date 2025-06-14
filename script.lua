@@ -11,9 +11,7 @@ knifeData.WalkSpeed = 40
 knifeData.FireRate = 0.1
 knifeData.EquipTime = 0.01
 knifeData.RecoilMult = 0
--- Knife spread left unchanged as requested
 knifeData.ReloadTime = 0.01
--- Automatic stays false for Knife
 
 print("KNIFE After:", "Damage:", knifeData.Damage, "Range:", knifeData.Range, "WS:", knifeData.WalkSpeed, "FireRate:", knifeData.FireRate,
       "EquipTime:", knifeData.EquipTime, "RecoilMult:", knifeData.RecoilMult, "Spread:", knifeData.Spread, "ReloadTime:", knifeData.ReloadTime, "Automatic:", knifeData.Automatic)
