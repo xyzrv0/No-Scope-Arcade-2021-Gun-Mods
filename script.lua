@@ -5,7 +5,7 @@ local knifeData = KnifeModule.Get()
 print("KNIFE Before:", "Damage:", knifeData.Damage, "Range:", knifeData.Range, "WS:", knifeData.WalkSpeed, "FireRate:", knifeData.FireRate,
       "EquipTime:", knifeData.EquipTime, "RecoilMult:", knifeData.RecoilMult, "Spread:", knifeData.Spread, "ReloadTime:", knifeData.ReloadTime, "Automatic:", knifeData.Automatic)
 
-knifeData.Damage = 1000
+knifeData.Damage = 9999
 knifeData.Range = 20000
 knifeData.WalkSpeed = 40
 knifeData.FireRate = 0.1
@@ -25,7 +25,7 @@ local r2miData = R2MIModule.Get()
 print("R2MI Before:", "Damage:", r2miData.Damage, "Range:", r2miData.Range, "WS:", r2miData.WalkSpeed, "FireRate:", r2miData.FireRate,
       "EquipTime:", r2miData.EquipTime, "RecoilMult:", r2miData.RecoilMult, "Spread:", r2miData.Spread, "ReloadTime:", r2miData.ReloadTime, "Automatic:", r2miData.Automatic)
 
-r2miData.Damage = 1000
+r2miData.Damage = 9999
 r2miData.Range = 20000
 r2miData.WalkSpeed = 30
 r2miData.FireRate = 0.1
